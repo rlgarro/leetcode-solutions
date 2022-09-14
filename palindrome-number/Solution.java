@@ -1,3 +1,7 @@
+//  DESCRIPTION:
+//  Given an integer x, return true if x is palindrome integer.
+//  An integer is a palindrome when it reads the same backward as forward.
+
 class Solution {
     public boolean isPalindrome(int x) {
         if (x < 10 && x >= 0) return true;
